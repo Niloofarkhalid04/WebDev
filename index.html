@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <span class="logo-text">Creative Studio</span>
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#work" class="nav-link">Our Work</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-on-scroll">We Create Digital Experiences</h1>
+            <p class="animate-on-scroll">Transforming ideas into stunning digital realities through innovative design and development.</p>
+            <a href="#work" class="cta-button animate-on-scroll">View Our Work</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <section id="work" class="work">
+        <h2 class="section-title animate-on-scroll">Featured Projects</h2>
+        <div class="work-grid">
+            <div class="work-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Project 1">
+                <div class="work-overlay">
+                    <h3>Brand Identity</h3>
+                    <p>Creative Direction & Design</p>
+                </div>
+            </div>
+            <div class="work-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Project 2">
+                <div class="work-overlay">
+                    <h3>Web Development</h3>
+                    <p>Full-Stack Solutions</p>
+                </div>
+            </div>
+            <div class="work-item animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Project 3">
+                <div class="work-overlay">
+                    <h3>Digital Marketing</h3>
+                    <p>Strategy & Implementation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title animate-on-scroll">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card animate-on-scroll">
+                <div class="service-icon">🎨</div>
+                <h3>Design</h3>
+                <p>UI/UX Design, Brand Identity, Visual Design, Motion Graphics</p>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <div class="service-icon">💻</div>
+                <h3>Development</h3>
+                <p>Web Development, Mobile Apps, E-commerce Solutions</p>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <div class="service-icon">📱</div>
+                <h3>Marketing</h3>
+                <p>Digital Marketing, SEO, Social Media Management</p>
+            </div>
+            <div class="service-card animate-on-scroll">
+                <div class="service-icon">📊</div>
+                <h3>Analytics</h3>
+                <p>Data Analysis, Performance Tracking, Optimization</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <h2 class="section-title animate-on-scroll">Meet Our Team</h2>
+        <div class="team-grid">
+            <div class="team-member animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Team Member 1">
+                <h3>Sarah Johnson</h3>
+                <p>Creative Director</p>
+            </div>
+            <div class="team-member animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Team Member 2">
+                <h3>Michael Chen</h3>
+                <p>Lead Developer</p>
+            </div>
+            <div class="team-member animate-on-scroll">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Team Member 3">
+                <h3>Emily Davis</h3>
+                <p>Marketing Strategist</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title animate-on-scroll">Get in Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form" class="contact-form animate-on-scroll">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <div class="contact-info animate-on-scroll">
+                <div class="info-item">
+                    <h3>Location</h3>
+                    <p>123 Creative Street<br>Design District, NY 10001</p>
+                </div>
+                <div class="info-item">
+                    <h3>Contact</h3>
+                    <p>hello@creativestudio.com<br>+1 (555) 123-4567</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Creative Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
